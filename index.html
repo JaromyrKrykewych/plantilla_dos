@@ -6,11 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantilla N°2</title>
 
+
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
-        <p>REPLACE WITH YOUR HEADER</p>
+        <div class="menu" onclick="openMenu(event);">
+            #
+        </div>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>HOME</li>
+                </a>
+                <a href="#">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#">
+                    <li>SERVICES</li>
+                </a>
+                <a href="#">
+                    <li>CONTACT</li>
+                </a>
+                <a href="#">
+                    <li>BLOG</li>
+                </a>
+                <a href="#">
+                    <li>BOOK A CALL</li>
+                </a>
+            </ul>
+        </nav>
     </header>
     <section class="home">
         <div class="home-text">
@@ -18,7 +44,7 @@
             <h2>Your Headline Goes Here, Make It Impactful For Your Ideal Client</h2>
             <button>SIGN ME UP!</button>
         </div>
-        <div class="home-image">
+        <div class="home-image animate__animated animate__fadeIn">
             <!-- Imagen -->
         </div>
     </section>
@@ -115,7 +141,7 @@
             <div class="testimony-image">
                 <!-- Imagen -->
             </div>
-            <div class="testimony-text">
+            <div class="testimony-text" id="animate-div-one">
                 <div>
                     <h2>What They're Saying</h2>
                     <h3>'Strong testimsonial will go here, make sure you focus on their struggle and the benefits they experienced!'</h3>
@@ -379,5 +405,14 @@
             </div>
         </div>
     </section>
+    <footer>
+        <ul>
+            <li>PRIVACY POLICY</li>
+            <li>@2020 COPYRIGHT</li>
+            <li>DESIGNED BY AGENCIA KAME</li>
+        </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
