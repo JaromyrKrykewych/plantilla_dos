@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Europa', sans-serif; }
+
+p, span, ul, li {
+  font-family: 'Montserrat', sans-serif; }
+
 header {
   width: 100%;
-  text-align: center;
-  /* p {
-        font-size: 40px;
-    } */ }
+  text-align: center; }
   header .menu {
     display: none; }
   header nav {
@@ -42,16 +45,16 @@ header {
       margin: 30px 10px; }
     .home-text h3 {
       font-size: 14px;
-      color: #F77F7F; }
+      color: #139487; }
     .home-text h2 {
       font-size: 48px;
       color: #414141;
       line-height: 5rem; }
     .home-text button {
       font-size: 14px;
-      color: #F77F7F;
+      color: #d29d2b;
       background-color: #fff;
-      border: 2px solid #F77F7F;
+      border: 2px solid #d29d2b;
       padding: 10px 60px; }
   .home-image {
     background-image: url("../images/laptop.jpg");
@@ -68,36 +71,36 @@ header {
   .home-two-image {
     background-image: url("../images/laptop.jpg");
     width: 40%;
-    height: 650px;
+    height: 580px;
     position: absolute;
     left: 100px; }
   .home-two-text {
-    background-color: #fff;
+    background-color: rgba(213, 218, 211, 0.4);
     width: 60%;
-    margin: 100px 50px 0 auto; }
+    margin: 60px 50px 0 auto; }
     .home-two-text .box {
       width: 75%;
       margin-left: auto;
-      padding: 30px; }
+      padding: 20px; }
       .home-two-text .box h2 {
-        font-size: 38px;
+        font-size: 33px;
         color: #414141;
-        margin: 0 15px 30px;
+        margin: 0 15px 20px;
         text-transform: capitalize;
-        line-height: 3.5rem; }
+        line-height: 2.5rem; }
       .home-two-text .box h3 {
         font-size: 14px;
-        color: #F77F7F;
-        margin: 40px 20px 30px; }
+        color: #139487;
+        margin: 20px 20px; }
       .home-two-text .box .box-text {
-        border-top: 2px solid #97C0C1;
+        border-top: 2px solid rgba(19, 148, 135, 0.4);
         padding: 10px 20px; }
         .home-two-text .box .box-text h2 {
-          font-size: 30px;
+          font-size: 23px;
           color: #414141;
           margin: 5px 0; }
         .home-two-text .box .box-text p {
-          font-size: 15px;
+          font-size: 13px;
           padding: 5px 0; }
 
 .description {
@@ -120,7 +123,7 @@ header {
   .description-bg-image {
     width: 40%;
     height: 650px;
-    background-color: #F77F7F;
+    background-color: #139487;
     margin: 0 auto 0 150px; }
     .description-bg-image .image {
       background-image: url("../images/laptop.jpg");
@@ -145,14 +148,16 @@ header {
     gap: 80px; }
     .description-two .actions-item {
       position: relative;
-      padding: 0 30px; }
+      padding: 0 30px;
+      border-radius: 45px; }
       .description-two .actions-item h4 {
+        display: none;
         position: absolute;
-        top: -60px;
+        top: -65px;
         left: 15px;
         font-size: 100px; }
       .description-two .actions-item h3 {
-        padding: 80px 30px 0;
+        padding: 30px 30px 0;
         font-size: 14px;
         line-height: 22px; }
       .description-two .actions-item p {
@@ -160,24 +165,24 @@ header {
         padding: 0 20px;
         margin: 20px 0; }
     .description-two .actions .bg-one {
-      background-color: #e6fbfa; }
+      background-color: rgba(19, 148, 135, 0.4); }
       .description-two .actions .bg-one h4 {
-        color: #97C0C1; }
+        color: #139487; }
     .description-two .actions .bg-two {
-      background-color: #ffe9e9; }
+      background-color: rgba(19, 148, 135, 0.4); }
       .description-two .actions .bg-two h4 {
-        color: #F77F7F; }
+        color: #139487; }
     .description-two .actions .bg-three {
-      background-color: #f7f4f1; }
+      background-color: rgba(19, 148, 135, 0.4); }
       .description-two .actions .bg-three h4 {
-        color: #D9CBBB; }
+        color: #139487; }
   .description-two .actions-button {
     width: 100%;
     margin: 100px 0 50px; }
     .description-two .actions-button button {
       position: relative;
       top: -20px;
-      background-color: violet;
+      background-color: #d29d2b;
       border: none;
       border-radius: 45px;
       cursor: pointer;
@@ -226,7 +231,7 @@ header {
           font-size: 14px;
           line-height: 22px;
           text-transform: uppercase;
-          color: #F77F7F;
+          color: #139487;
           margin: 18px 150px 18px 0; }
         .testimony .transparence .testimony-text div p {
           font-size: 15px;
@@ -254,7 +259,7 @@ header {
       width: 60%; }
 
 .modules {
-  margin-top: 100px; }
+  margin-top: 150px; }
   .modules-title {
     text-align: center; }
     .modules-title h2 {
@@ -273,9 +278,9 @@ header {
       grid-template-rows: 1fr;
       gap: 40px; }
       .modules-grid .grid-box .module-text {
-        background-color: #FFE9E9; }
+        background-color: rgba(19, 148, 135, 0.4); }
         .modules-grid .grid-box .module-text .module-number {
-          background-color: #F77F7F;
+          background-color: #d29d2b;
           color: #fff;
           width: 30%;
           padding: 15px;
@@ -339,7 +344,7 @@ header {
     .modules-btn button {
       position: relative;
       top: -20px;
-      background-color: violet;
+      background-color: #d29d2b;
       border: none;
       border-radius: 45px;
       cursor: pointer;
@@ -398,7 +403,7 @@ header {
     width: 80%; }
 
 .client-tips {
-  background-color: #ffe9e9;
+  background-color: rgba(19, 148, 135, 0.4);
   padding: 50px 100px 0; }
   .client-tips-columns {
     display: flex;
@@ -406,7 +411,7 @@ header {
     .client-tips-columns .column h3 {
       margin: 30px 0 40px 40px;
       font-size: 30px;
-      color: #F77F7F; }
+      color: #139487; }
     .client-tips-columns .column ul {
       padding: 0 50px 50px 40px; }
       .client-tips-columns .column ul div {
@@ -435,16 +440,17 @@ header {
       margin: 20px 0; }
     .selling-title h3 {
       font-size: 14px;
-      color: #F77F7F;
+      color: #139487;
       text-transform: uppercase;
       margin: 20px 0; }
   .selling-boxes {
-    margin: 100px 0;
+    margin: 100px 150px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    gap: 50px; }
+    gap: 150px; }
     .selling-boxes .sell-box {
+      border-radius: 45px;
       position: relative;
       text-align: center; }
       .selling-boxes .sell-box-number {
@@ -476,19 +482,19 @@ header {
         width: 60%;
         padding: 15px; }
     .selling-boxes .box-one {
-      background-color: #e6fbfa; }
+      background-color: rgba(19, 148, 135, 0.4); }
       .selling-boxes .box-one .sell-box-number {
-        background-color: #97C0C1; }
+        background-color: #139487; }
       .selling-boxes .box-one button {
-        border-color: #97C0C1;
-        background-color: #e6fbfa; }
+        border-color: #d29d2b;
+        background-color: rgba(210, 157, 43, 0.4); }
     .selling-boxes .box-two {
-      background-color: #ffe9e9; }
+      background-color: rgba(19, 148, 135, 0.4); }
       .selling-boxes .box-two .sell-box-number {
-        background-color: #F77F7F; }
+        background-color: #139487; }
       .selling-boxes .box-two button {
-        border-color: #F77F7F;
-        background-color: #ffe9e9; }
+        border-color: #d29d2b;
+        background-color: rgba(210, 157, 43, 0.4); }
     .selling-boxes .box-three {
       background-color: #f7f4f1; }
       .selling-boxes .box-three .sell-box-number {
@@ -556,7 +562,6 @@ footer {
         margin: 20px 10px; }
       .home-text h3 {
         font-size: 14px;
-        color: #F77F7F;
         display: block;
         width: 60%;
         margin: 20px auto; }
@@ -566,9 +571,7 @@ footer {
         line-height: 2.5rem; }
       .home-text button {
         font-size: 14px;
-        color: #F77F7F;
         background-color: #fff;
-        border: 2px solid #F77F7F;
         padding: 10px 60px; }
     .home-image {
       background-image: url("../images/laptop.jpg");
@@ -693,7 +696,7 @@ footer {
         margin-bottom: 100px; }
       .testimony .transparence .testimony-text {
         background-color: #fff;
-        width: 80%;
+        width: 70%;
         height: 75%;
         margin: 220px auto 100px auto; }
         .testimony .transparence .testimony-text div {
@@ -743,6 +746,8 @@ footer {
               border-left: 20px solid #414141;
               border-top: 10px solid transparent;
               border-bottom: 10px solid transparent; }
+      .testimony .transparence .animating {
+        width: 80%; }
   .modules {
     margin-top: 80px; }
     .modules-title h2 {
@@ -947,7 +952,7 @@ footer {
       margin: 70px 0;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
       gap: 80px; }
       .selling-boxes .sell-box {
         position: relative;
